@@ -1,0 +1,801 @@
+body
+{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #121212;
+}
+.main-header 
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    width: 100%;
+    height: 180px;
+    box-sizing: border-box;
+}
+.header-left 
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-icon 
+{
+    height: 35px;
+    justify-content: center;
+}
+.nav-links 
+{
+    display: flex;
+    gap: 25px;
+    border-bottom: 2px solid grey;
+}
+h5 
+{
+    color: white;
+    margin: 5px 0 0;
+}
+h5:hover 
+{
+    color: red;
+}
+.logo-img 
+{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo-img:hover 
+{
+    background-color: red;
+}
+.submit 
+{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+.submit-img 
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.herobox-1 
+{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: left;
+    align-items: flex-end;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background-image: url("herobox-mercides.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-content
+{
+    color:white;
+    width: 500px;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom:top;
+    margin-top: 25px;
+}
+#button1 {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+}
+.containers
+{
+    margin:5%;
+    padding-left: 2.5%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.box2-image1
+{
+    width:350px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box1-image.avif");
+}
+.box3-image1
+{
+    width:350px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box2-image.avif");
+}
+.box4-image1
+{
+    width:350px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box3-image.avif");
+}
+h3
+{
+    color:white;
+    font-size: large;
+}
+.container-img1
+{
+    flex:1;
+    width:700px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box4-image.avif");
+}
+.containers2
+{
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container-content
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container-class
+{
+    flex:1;
+}
+.container-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container3-img1
+{
+    flex:1;
+    width:700px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box5-image.avif");
+}
+.containers3
+{
+    margin-top: 7%;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container3-content1
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container3-class1
+{
+    flex:1;
+}
+.container3-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+#heading1
+{
+    color:white;
+    margin-top: 5%;
+    padding-left:5%;
+}
+.containers4
+{
+    margin:5%;
+    padding-left:0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.box-image
+{
+    width:fit-content;
+    height: fit-content;
+    box-sizing: content-box;
+}
+.box5-image1
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box6-image.avif");
+}
+.box5-image2
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box7-image.avif");
+}
+.box5-image3
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box8-image.avif");
+}
+h4
+{
+    color:white;
+    box-sizing: content-box;
+}
+.containers5
+{
+    display: flex;
+    justify-content: center;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+.button-container
+{
+    margin-top:20px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+#center1
+{
+    width:200px;
+    height:50px;
+    background-color: red;
+    color:white;
+    font-size: larger;
+}
+#center2
+{
+    width:120px;
+    height:50px;
+    color:black;
+    cursor: pointer;
+    font-size: larger;
+}
+#center2:hover{
+    background-color: red;
+    color:white;
+}
+.container5-img1
+{
+    flex:1;
+    width:700px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box9-image.avif");
+}
+.containers5
+{
+    margin-top: 7%;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container5-content1
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container5-class1
+{
+    flex:1;
+}
+.container5-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container6-img1
+{
+    flex:1;
+    width:800px;
+    height: 700px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box10-image.avif");
+}
+.containers6
+{
+    margin-top: 90px;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container6-content
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container6-class
+{
+    flex:1;
+    margin-top: 15%;
+}
+.container6-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container6-img
+{
+    box-sizing: content-box;
+}
+.containers7
+{
+    margin-top: 7%;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container7-content1
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container7-class1
+{
+    flex:1;
+}
+.container7-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container7-img1
+{
+    flex:1;
+    width:700px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box11-image.avif");
+}
+.container8-img1
+{
+    flex:1;
+    width:800px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box12-image.avif");
+}
+.containers8
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container8-content
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container8-class
+{
+    flex:1;
+    margin-top:40px;
+}
+.container8-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container8-img
+{
+    box-sizing: content-box;
+}
+.containers9
+{
+    margin-top: 7%;
+    display: flex;
+    justify-content: right;
+    padding-left:5%;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.container9-content1
+{
+    color:white;
+    margin: :10px 0px;
+}
+.container9-class1
+{
+    flex:1;
+}
+.container9-button
+{
+    width:250px;
+    height:40px;
+    color:white;
+    background-color: red;
+}
+.container9-img1
+{
+    flex:1;
+    width:700px;
+    height: 400px;
+    background-size: cover;
+    background-position: cover;
+    background-image: url("box13-image.avif");
+}
+.containers10
+{
+    margin:5%;
+    padding-left:0;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+.box10-image
+{
+    width:fit-content;
+    height: fit-content;
+    box-sizing: content-box;
+}
+.box10-image1
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box14-image.avif");
+}
+.box10-image2
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box15-image.avif");
+}
+.box10-image3
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box17-image.avif");
+}
+.herobox-2 {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: left;
+    align-items: flex-end;
+    padding-left: 5%;
+    box-sizing: border-box;
+    background-image: url("herobox-2.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero1-content1
+{
+    color:white;
+    width: 500px;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom:top;
+    margin-top: 25px;
+}
+#hero-button1{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.center3
+{
+    padding-left: 10%;
+    color:white;
+}
+.containers11
+{
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    flex-direction:row;
+    gap: 40px;
+}
+.box11-image1
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box18-image.avif");
+}
+.box11-image2
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box19-image.avif");
+}
+.box11-image3
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box20-image.avif");
+}
+.containers12
+{
+    width:fit-content;
+    height: fit-content;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap:40px;
+    padding-left: 10%;
+}
+.box12-image1
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box21-image.avif");
+}
+.box12-image2
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box22-image.avif");
+}
+.box12-image3
+{
+    width:390px;
+    height:250px;
+    background-position: cover;
+    background-size: cover;
+    background-image: url("box23-image.avif");
+}
+.final-button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+#final-button
+{
+    color:white;
+    background-color: red;
+    width:250px;
+    height: 60px;
+}
+.footer1-img
+{
+    color:white;
+}
+.footer1-img:hover
+{
+    color: red;
+}
+.site-footer
+{
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.footer-content
+{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.footer-icons a
+{
+    margin: 0 10px;
+    display: inline-block;
+}
+.footer-icons img 
+{
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+    transition: transform 0.2s ease;
+}
+.footer-links 
+{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.footer-links a
+{
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 6px;
+}
+.footer-links a:hover 
+{
+    color: red;
+}
+.last-para
+{
+    color:white;
+}
+@media (max-width: 1200px) {
+  .containers,
+  .containers4,
+  .containers10,
+  .containers11,
+  .containers12 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-img1,
+  .container3-img1,
+  .container5-img1,
+  .container6-img1,
+  .container7-img1,
+  .container8-img1,
+  .container9-img1 {
+    width: 90%;
+    height: auto;
+  }
+
+  .box5-image1,
+  .box5-image2,
+  .box5-image3,
+  .box10-image1,
+  .box10-image2,
+  .box10-image3,
+  .box11-image1,
+  .box11-image2,
+  .box11-image3,
+  .box12-image1,
+  .box12-image2,
+  .box12-image3 {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  .header-left {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-bottom: none;
+  }
+
+  .herobox-1,
+  .herobox-2 {
+    height: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-content,
+  .hero1-content1 {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  .containers2,
+  .containers3,
+  .containers5,
+  .containers6,
+  .containers7,
+  .containers8,
+  .containers9 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-class,
+  .container3-class1,
+  .container5-class1,
+  .container6-class,
+  .container7-class1,
+  .container8-class,
+  .container9-class1 {
+    width: 90%;
+  }
+
+  .container-button,
+  .container3-button,
+  .container5-button,
+  .container6-button,
+  .container7-button,
+  .container8-button,
+  .container9-button {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #center1,
+  #center2 {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .containers11,
+  .containers12 {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .site-footer {
+    font-size: 14px;
+  }
+}
