@@ -12,25 +12,31 @@ body
     align-items: center;
     padding: 10px 30px;
     width: 100%;
-    height: 180px;
+    height: 150px;
     box-sizing: border-box;
 }
 .header-left 
 {
     display: flex;
     align-items: center;
-    gap: 20px;
+    padding: 0px 124.2px;
+    margin:24px 0px 0px;
+    margin-bottom: 80px;
 }
 .logo-icon 
 {
-    height: 35px;
+    height: 50px;
     justify-content: center;
 }
 .nav-links 
 {
+    margin-bottom: 70px;
     display: flex;
-    gap: 25px;
-    border-bottom: 2px solid grey;
+    justify-content: space-evenly ;
+    align-items: center; 
+    gap:90px;
+    padding-right: 35px;
+    border-bottom: 1px solid grey;
 }
 h5 
 {
@@ -41,8 +47,14 @@ h5:hover
 {
     color: red;
 }
-.logo-img 
+.header-left
 {
+    padding-left: 20px;
+    width:14%;
+    height:14%;
+}
+.logo-img 
+{  
     width: 30px;
     height: 30px;
     cursor: pointer;
@@ -53,11 +65,14 @@ h5:hover
 }
 .submit 
 {
-    background-color: red;
+    background-color:#B21E23;
+    padding:0px 16px;
     color: white;
     border-radius: 20px;
     height: 30px;
     width: 100px;
+    margin-bottom: 60px;
+    padding-right: 80px;
 }
 .submit-img 
 {
@@ -65,12 +80,11 @@ h5:hover
     height: 20px;
     background-color: white;
 }
-.herobox-1 
-{
+.herobox-1 {
     display: flex;
     width: 100%;
     height: 700px;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: flex-end;
     padding-left: 5%;
     box-sizing: border-box;
@@ -78,22 +92,53 @@ h5:hover
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.hero-content
-{
-    color:white;
-    width: 500px;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.5);
-    padding-bottom:top;
-    margin-top: 25px;
-}
-#button1 {
-    background-color: red;
+  }
+  
+  .hero-content {
     color: white;
-    height: 30px;
-    width: 150px;
-}
+    width: 500px;
+    margin-bottom: 25%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 20px;
+    border-radius: 6px;
+  }
+  
+  .hero-content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+  }
+  
+  .hero-content h6 {
+    margin: 0 0 10px;
+    font-weight: normal;
+    color: #ccc;
+  }
+  
+  .hero-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  #button1 {
+    background-color: #B21E23;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #button1:hover {
+    background-color:red;
+  }
+  
 .containers
 {
     margin:5%;
@@ -145,7 +190,9 @@ h3
     display: flex;
     justify-content: right;
     padding-left:5%;
+    margin: 10px 0px;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container-content
@@ -162,7 +209,7 @@ h3
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color:#B21E23;
 }
 .container3-img1
 {
@@ -180,6 +227,7 @@ h3
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container3-content1
@@ -196,7 +244,7 @@ h3
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color: #B21E23;
 }
 #heading1
 {
@@ -211,6 +259,8 @@ h3
     justify-content: space-evenly;
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
+    line-height: 20px;
 }
 .box-image
 {
@@ -251,6 +301,8 @@ h4
 {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding:40px 60px;
 }
 .center
 {
@@ -269,7 +321,7 @@ h4
 {
     width:200px;
     height:50px;
-    background-color: red;
+    background-color: #B21E23;
     color:white;
     font-size: larger;
 }
@@ -282,7 +334,7 @@ h4
     font-size: larger;
 }
 #center2:hover{
-    background-color: red;
+    background-color:#B21E23;
     color:white;
 }
 .container5-img1
@@ -301,6 +353,7 @@ h4
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container5-content1
@@ -317,7 +370,7 @@ h4
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color:#B21E23;
 }
 .container6-img1
 {
@@ -335,6 +388,7 @@ h4
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container6-content
@@ -352,7 +406,7 @@ h4
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color:#B21E23;
 }
 .container6-img
 {
@@ -365,6 +419,7 @@ h4
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container7-content1
@@ -381,7 +436,7 @@ h4
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color: #B21E23;
 }
 .container7-img1
 {
@@ -408,6 +463,7 @@ h4
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container8-content
@@ -425,7 +481,7 @@ h4
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color:#B21E23;
 }
 .container8-img
 {
@@ -438,6 +494,7 @@ h4
     justify-content: right;
     padding-left:5%;
     gap:40px;
+    padding:40px 60px;
     flex-wrap: wrap;
 }
 .container9-content1
@@ -454,7 +511,7 @@ h4
     width:250px;
     height:40px;
     color:white;
-    background-color: red;
+    background-color:#B21E23;
 }
 .container9-img1
 {
@@ -471,6 +528,7 @@ h4
     padding-left:0;
     justify-content: space-evenly;
     display: flex;
+    padding:40px 60px;
     flex-direction: row;
 }
 .box10-image
@@ -526,7 +584,7 @@ h4
     margin-top: 25px;
 }
 #hero-button1{
-    background-color: red;
+    background-color: #B21E23;
     color: white;
     height: 30px;
     width: 150px;
@@ -616,7 +674,7 @@ h4
 #final-button
 {
     color:white;
-    background-color: red;
+    background-color: #B21E23;
     width:250px;
     height: 60px;
 }
