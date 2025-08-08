@@ -46,6 +46,9 @@ body {
     border-bottom: 1px solid grey;
     flex-wrap: wrap;
 }
+h2,p{
+    color:white;
+}
 h5 {
     color: white;
     margin: 5px 0 0;
@@ -1190,4 +1193,5 @@ h3,h4 {
         align-items: flex-start;
     }
 }
+
 
